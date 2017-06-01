@@ -31,10 +31,9 @@ function createStore(){
   ...
 
   return {
-    getState: getState,   
+    getState: getState,
     dispatch: dispatch,
-    subscribe: subscribe     
-    }
+    subscribe: subscribe
   }
 }
 ```
@@ -70,10 +69,9 @@ function createStore(reducer){
   ...
 
   return {
-    getState: getState,   
+    getState: getState,
     dispatch: dispatch,
-    subscribe: subscribe     
-    }
+    subscribe: subscribe
   }
 }
 
@@ -116,10 +114,9 @@ function createStore(reducer){
   dispatch({})
 
   return {
-    getState: getState,   
+    getState: getState,
     dispatch: dispatch,
-    subscribe: subscribe     
-    }
+    subscribe: subscribe
   }
 }
 
@@ -141,3 +138,5 @@ Let's recap everything we've done so far.
 ## Resources
 
 + [Redux Docs on Reducers](http://redux.js.org/docs/basics/Reducers.html)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/react-redux-basic-reducer'>Basic Reducer</a> on Learn.co and start learning to code for free.</p>
